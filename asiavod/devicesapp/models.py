@@ -7,4 +7,4 @@ class DeviceList(models.Model):
     deviceon = models.BooleanField(default=False)
 
     class Meta:
-        ordering = ('devicemac',) 
+        ordering = ('created',) 
